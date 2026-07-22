@@ -86,7 +86,7 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 const repeticoes = Math.max(4, Math.ceil(12 / livros.length));
 
-for (let i = 0; i < repeticoes; i++) {
+for (let i = 0; i < repeticoes; i++) { 
     livros.forEach(livro => {
         track.appendChild(criarCard(livro));
     });
